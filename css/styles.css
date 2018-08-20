@@ -1,0 +1,161 @@
+body {
+  /* background-image: url("../img/security-wallpapers.jpg"); */
+  background: lavender;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: ubuntu;
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.header1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/wallpaper-computer.jpg");
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  line-height: 1.5;
+}
+
+.head-text {
+  font-size: 20px;
+}
+
+.container-fluid {
+  font-family: Asterix-Regular;
+}
+
+.btn1 {
+  background-color: rgb(52, 201, 221);
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 130px;
+  color: white;
+}
+
+.para1 {
+  font-size: 20px;
+  font-family: 75749;
+}
+
+.para1 {
+  font-size: 20px;
+  font-family: 75749;
+}
+
+.para3 {
+  visibility: hidden;
+}
+
+.head {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: bolder;
+  font-size: 60px;
+}
+.java {
+  font-size: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 10px;
+}
+
+.container-fluid {
+  color: white;
+  font-family: airmoleq;
+}
+
+.row {
+  text-align: justify;
+}
+
+.history {
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+.questions {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+footer {
+  background: #ffffff;
+  height: 50px;
+  border-radius: 6px;
+}
+#button:hover {
+  /* background: coral; */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* .button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+   */
+/* Media Queries */
+/* @media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(134, 134, 134);
+  }
+} */
